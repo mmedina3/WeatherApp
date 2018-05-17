@@ -34,20 +34,20 @@ class App extends React.Component {
         description: data.weather[0].description,
         error: ""
     });
-    } else {
-      this.setState({
-      temperature: undefined,
-      city: undefined,
-      country: undefined,
-      humidity: undefined,
-      description: undefined,
-      error: "Please enter the values!"
-     });
-    }
+      } else {
+        this.setState({
+        temperature: undefined,
+        city: undefined,
+        country: undefined,
+        humidity: undefined,
+        description: undefined,
+        error: "Please enter the values!"
+       });
+      }
     } 
-    catch(e) {
+       catch(e) {
       console.log('Error!', e);
-    }   
+  }   
 }
 render(){
   return(
