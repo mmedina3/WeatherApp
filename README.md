@@ -5,4 +5,4 @@ Weather Finder- App built to check the weather around the globe.<br />Built with
 ![Image](https://media.giphy.com/media/6b9GNhqtE58XXl2Gfq/giphy.gif)
 
 
-https://mmedina3.github.io/Canvas-Art/
+
